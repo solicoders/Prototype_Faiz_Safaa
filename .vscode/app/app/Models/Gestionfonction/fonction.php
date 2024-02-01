@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models\fonction;
+namespace App\Models\Gestionfonction;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Fonction extends Model
+class fonction extends Models
 {
     use HasFactory;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\fonction;
+namespace App\Http\Controllers\GestionFonction;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
