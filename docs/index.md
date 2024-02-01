@@ -1,25 +1,25 @@
 # Creation application Laravel
 
-- Création d'un projet laravel
+- 1.Création d'un projet laravel
 
 ```
   Composer create-project laravel/laravel gestion-musique
 ```
-- Installation de Admin LTE
+- 2.Installation de Admin LTE
 
 ```
     npm install admin-lte --save
 
 ```
 
-- Utilisations d'un namespace pour le projet
+- 3.Utilisations d'un namespace 
 
 ```
     php artisan make:controller Fonction/FonctionController
     php artisan make:controller Département/DépartementController
 ```
 
-- Création de model
+- 4.Création de model
 
 ```
     php artisan make:model Fonction/Fonction
