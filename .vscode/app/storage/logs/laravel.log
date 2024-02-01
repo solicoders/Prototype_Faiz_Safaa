@@ -1,0 +1,20 @@
+[2024-02-01 11:59:52] local.ERROR: filemtime(): stat failed for C:\Users\Solicode\Downloads\Prototype_Faiz_Safaa\.vscode\app\.env {"exception":"[object] (ErrorException(code: 0): filemtime(): stat failed for C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\.env at C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\ServeCommand.php:99)
+[stacktrace]
+#0 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\ServeCommand.php(99): filemtime()
+#3 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Console\\ServeCommand->handle()
+#4 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#6 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#8 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call()
+#9 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute()
+#10 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#11 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#12 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#13 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#14 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#15 C:\\Users\\Solicode\\Downloads\\Prototype_Faiz_Safaa\\.vscode\\app\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 {main}
+"} 
