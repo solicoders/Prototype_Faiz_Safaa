@@ -3,7 +3,7 @@
 - 1.Création d'un projet laravel
 
 ```
-  Composer create-project laravel/laravel gestion-musique
+  Composer create-project laravel/laravel gestion-fonction
 ```
 - 2.Installation de Admin LTE
 
